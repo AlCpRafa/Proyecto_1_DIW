@@ -1,0 +1,40 @@
+/* CSS del footer */
+.footer{
+    height: fit-content;
+}
+.footernav{
+    width: fit-content;
+}
+/* para que se distribuyan bien */
+.footer__flex{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+/* para centrar los contendores que albergan el icono y los titulos de los navs del footer */
+.footernav__top{
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+}
+
+/* estilo de los titulos */
+.footernav__title{
+    color: rgb(165, 0, 0);
+    font-size: 1.5rem;
+}
+/*  se quita el estilo por defecto de la lista */
+.footernav__list{
+    list-style: none;
+    padding: 0;
+    font-size: 1rem;
+    text-align: center;
+}
+/* colocacion */
+.footernav__element{
+    margin: 5px;
+}
+/* efecto hover */
+.footernav__element:hover{
+    color: rgb(165, 0, 0);
+}

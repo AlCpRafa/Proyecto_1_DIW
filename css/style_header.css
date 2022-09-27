@@ -1,0 +1,24 @@
+.header{
+    width: 100%;
+}
+.navigator{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.navigator__icon{
+    width: 200px;
+    margin-left: 5%;
+    margin-right: 20%;
+}
+.navigator__icon img{
+    width: 100%;
+}
+.navigator__list{
+    list-style: none;
+    font-size: 30px;
+    font-weight: bolder;
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
