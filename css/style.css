@@ -6,4 +6,5 @@ body{
 /* estilo para los titulos */
 .titulo{
     font-weight: bold;
+    z-index: 5;
 }

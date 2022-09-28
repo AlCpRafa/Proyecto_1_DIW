@@ -1,0 +1,25 @@
+.coche{
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-image: url(../assets/images/models.png);
+}
+.coche__titulo{
+    width: 15%;
+    margin: auto;
+    font-size: 2.5rem;
+    text-align: center;
+    border: 1px solid red; 
+    color: brown;
+}
+.coche__stats{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 90%;
+}
+.coche__dato{
+    width: 20%;
+}
